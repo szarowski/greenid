@@ -5749,7 +5749,7 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-modal#greenid-wait-modal .modal-body {
   font-family: 'HelveticaNeueLTStd-Th';
   font-size: 29px;
-  color: #42751A;
+  color: #29B7DA;
   padding: 30px;
 }
 @media (max-width: 320px) {
@@ -5876,7 +5876,7 @@ a#greenid-container .bg-danger:hover {
   }
 }
 .greenid-so-content #greenid-container h1 {
-  color: #42751A;
+  color: #29B7DA;
   font-family: 'HelveticaNeueLTStd-Th';
   font-weight: normal;
   font-size: 35px;
@@ -5894,7 +5894,7 @@ a#greenid-container .bg-danger:hover {
   font-weight: normal;
 }
 .greenid-so-content #greenid-container h2 {
-  color: #42751A;
+  color: #29B7DA;
   font-family: 'HelveticaNeueLTStd-Lt';
   font-weight: normal;
   font-size: 28px;
@@ -5908,7 +5908,7 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container h4 {
   font-family: 'HelveticaNeueLTStd-Md';
   font-weight: normal;
-  color: #42751A;
+  color: #29B7DA;
 }
 .greenid-so-content #greenid-container p {
   font-size: 18px;
@@ -6051,7 +6051,7 @@ a#greenid-container .bg-danger:hover {
   font-size: 50px;
   font-family: 'HelveticaNeueLTStd-Th';
   font-weight: normal;
-  color: #42751A;
+  color: #29B7DA;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .greenid-so-content-dropcap {
@@ -6127,7 +6127,7 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item-hover {
   text-decoration: none;
-  background-color: #42751A;
+  background-color: #29B7DA;
   color: white;
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item-nohover:focus,
@@ -6180,13 +6180,13 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container .greenid-so-content-select-item-selected {
   background-image: url('/df/assets/images/so-select-item-selected.png');
   background-color: rgba(69, 115, 39, 0.1);
-  color: #42751A;
+  color: #29B7DA;
   z-index: 100;
   text-decoration: none;
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item-selected:focus,
 .greenid-so-content #greenid-container .greenid-so-content-select-item-selected:hover {
-  color: #42751A;
+  color: #29B7DA;
   background-color: rgba(69, 115, 39, 0.1);
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-noicon-dropdown {
@@ -6412,7 +6412,7 @@ a#greenid-container .bg-danger:hover {
   }
 }
 .greenid-so-content #greenid-container .btn-primary {
-  background-color: #42751A;
+  background-color: #29B7DA;
   color: white;
   text-transform: uppercase;
   padding: 15px;
@@ -6433,7 +6433,7 @@ a#greenid-container .bg-danger:hover {
   opacity: 1;
 }
 .greenid-so-content #greenid-container .btn-back {
-  color: #42751A;
+  color: #29B7DA;
   background-image: url('/df/assets/images/so-btn-back-arrow.png');
   background-position: left center;
   background-repeat: no-repeat;
@@ -6464,7 +6464,7 @@ a#greenid-container .bg-danger:hover {
   }
 }
 .greenid-so-content #greenid-container .btn-cancel {
-  color: #42751A;
+  color: #29B7DA;
   background-image: url('/df/assets/images/so-btn-cancel-icon.png');
   background-position: left center;
   background-repeat: no-repeat;
@@ -6501,7 +6501,7 @@ a#greenid-container .bg-danger:hover {
   margin-left: 0;
 }
 .greenid-so-content #greenid-container .btn-complete-later {
-  color: #42751A;
+  color: #29B7DA;
   background-image: url('/df/assets/images/so-btn-forward-arrow.png');
   background-position: right center;
   background-repeat: no-repeat;
@@ -6589,7 +6589,7 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container .input-group-btn button:focus,
 .greenid-so-content #greenid-container .input-group-btn button:hover {
   border-color: #D7D7DB;
-  color: #42751A;
+  color: #29B7DA;
 }
 .greenid-so-content #greenid-container .input-group-btn button .glyphicon {
   font-size: 16px;
@@ -6728,12 +6728,12 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container .greenid-modal .btn-default,
 .greenid-so-content #greenid-container #greenid-source-content #greenid-source-cancel.btn-default {
   background-color: white;
-  color: #42751A;
+  color: #29B7DA;
   text-transform: uppercase;
   padding: 15px;
   width: 100%;
   font-size: 17px;
-  border: 1px solid #42751A;
+  border: 1px solid #29B7DA;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
