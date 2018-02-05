@@ -191,6 +191,17 @@ a#greenid-container .bg-primary:hover {
     background-color: #29B7DA;
     border-color: #29B7DA;
 }
+#greenid-container .list-group-item.active .list-group-item-heading,
+#greenid-container .list-group-item.active:hover .list-group-item-heading,
+#greenid-container .list-group-item.active:focus .list-group-item-heading,
+#greenid-container .list-group-item.active .list-group-item-heading > small,
+#greenid-container .list-group-item.active:hover .list-group-item-heading > small,
+#greenid-container .list-group-item.active:focus .list-group-item-heading > small,
+#greenid-container .list-group-item.active .list-group-item-heading > .small,
+#greenid-container .list-group-item.active:hover .list-group-item-heading > .small,
+#greenid-container .list-group-item.active:focus .list-group-item-heading > .small {
+    color: inherit;
+}
 #greenid-container .list-group-item.active .list-group-item-text,
 #greenid-container .list-group-item.active:hover .list-group-item-text,
 #greenid-container .list-group-item.active:focus .list-group-item-text {
