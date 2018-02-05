@@ -1013,7 +1013,7 @@
   line-height: inherit;
 }
 #greenid-container a {
-  color: #3D8501;
+  color: #29B7DA;
   text-decoration: none;
 }
 #greenid-container a:hover,
@@ -1251,16 +1251,16 @@
   color: #777777;
 }
 #greenid-container .text-primary {
-  color: #3D8501;
+  color: #29B7DA;
 }
 a#greenid-container .text-primary:hover {
-  color: #265201;
+  color: #0c93b3;
 }
 #greenid-container .text-success {
-  color: #3c763d;
+  color: #29B7DA;
 }
 a#greenid-container .text-success:hover {
-  color: #2b542c;
+  color: #0c93b3;
 }
 #greenid-container .text-info {
   color: #31708f;
@@ -1282,10 +1282,10 @@ a#greenid-container .text-danger:hover {
 }
 #greenid-container .bg-primary {
   color: #fff;
-  background-color: #3D8501;
+  background-color: #29B7DA;
 }
 a#greenid-container .bg-primary:hover {
-  background-color: #265201;
+  background-color: #0c93b3;
 }
 #greenid-container .bg-success {
   background-color: #dff0d8;
@@ -2452,25 +2452,25 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .has-success .checkbox,
 #greenid-container .has-success .radio-inline,
 #greenid-container .has-success .checkbox-inline {
-  color: #3c763d;
+  color: #29B7DA;
 }
 #greenid-container .has-success .form-control {
-  border-color: #3c763d;
+  border-color: #29B7DA;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 #greenid-container .has-success .form-control:focus {
-  border-color: #2b542c;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  border-color: #0c93b3;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #29B7DA;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #29B7DA;
 }
 #greenid-container .has-success .input-group-addon {
-  color: #3c763d;
-  border-color: #3c763d;
+  color: #29B7DA;
+  border-color: #29B7DA;
   background-color: #dff0d8;
 }
 #greenid-container .has-success .form-control-feedback {
-  color: #3c763d;
+  color: #29B7DA;
 }
 #greenid-container .has-warning .help-block,
 #greenid-container .has-warning .control-label,
@@ -2696,7 +2696,7 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .btn-primary:active,
 #greenid-container .btn-primary.active {
   color: #fff;
-  background-color: #265201;
+  background-color: #0c93b3;
   border-color: #162f00;
 }
 #greenid-container .btn-primary:active,
@@ -2713,8 +2713,8 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .btn-primary[disabled]:active,
 #greenid-container .btn-primary.disabled.active,
 #greenid-container .btn-primary[disabled].active {
-  background-color: #3D8501;
-  border-color: #316c01;
+  background-color: #29B7DA;
+  border-color: #0c93b3;
 }
 #greenid-container .btn-primary .badge {
   color: #29B7DA;
@@ -2722,16 +2722,16 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container .btn-success {
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #29B7DA;
+  border-color: #29B7DA;
 }
 #greenid-container .btn-success:hover,
 #greenid-container .btn-success:focus,
 #greenid-container .btn-success:active,
 #greenid-container .btn-success.active {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: #29B7DA;
+  border-color: #29B7DA;
 }
 #greenid-container .btn-success:active,
 #greenid-container .btn-success.active {
@@ -2747,11 +2747,11 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .btn-success[disabled]:active,
 #greenid-container .btn-success.disabled.active,
 #greenid-container .btn-success[disabled].active {
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #29B7DA;
+  border-color: #29B7DA;
 }
 #greenid-container .btn-success .badge {
-  color: #5cb85c;
+  color: #29B7DA;
   background-color: #fff;
 }
 #greenid-container .btn-info {
@@ -2857,7 +2857,7 @@ a#greenid-container .bg-danger:hover {
   background-color: #fff;
 }
 #greenid-container .btn-link {
-  color: #3D8501;
+  color: #29B7DA;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -3247,7 +3247,7 @@ a#greenid-container .bg-danger:hover {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #3D8501;
+  background-color: #29B7DA;
 }
 #greenid-container .dropdown-menu > .disabled > a,
 #greenid-container .dropdown-menu > .disabled > a:hover,
@@ -3350,13 +3350,13 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .greenid-alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
-  color: #3c763d;
+  color: #29B7DA;
 }
 #greenid-container .greenid-alert-success hr {
   border-top-color: #c9e2b3;
 }
 #greenid-container .greenid-alert-success .alert-link {
-  color: #2b542c;
+  color: #0c93b3;
 }
 #greenid-container .greenid-alert-info {
   background-color: #d9edf7;
@@ -3451,8 +3451,8 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #3D8501;
-  border-color: #3D8501;
+  background-color: #29B7DA;
+  border-color: #29B7DA;
 }
 #greenid-container .list-group-item.active .list-group-item-heading,
 #greenid-container .list-group-item.active:hover .list-group-item-heading,
@@ -3851,28 +3851,28 @@ a#greenid-container .bg-danger:hover {
   border-bottom-color: #ddd;
 }
 #greenid-container .panel-primary {
-  border-color: #3D8501;
+  border-color: #29B7DA;
 }
 #greenid-container .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #3D8501;
-  border-color: #3D8501;
+  background-color: #29B7DA;
+  border-color: #29B7DA;
 }
 #greenid-container .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #3D8501;
+  border-top-color: #29B7DA;
 }
 #greenid-container .panel-primary > .panel-heading .badge {
-  color: #3D8501;
+  color: #29B7DA;
   background-color: #fff;
 }
 #greenid-container .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #3D8501;
+  border-bottom-color: #29B7DA;
 }
 #greenid-container .panel-success {
   border-color: #d6e9c6;
 }
 #greenid-container .panel-success > .panel-heading {
-  color: #3c763d;
+  color: #29B7DA;
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
@@ -3881,7 +3881,7 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container .panel-success > .panel-heading .badge {
   color: #dff0d8;
-  background-color: #3c763d;
+  background-color: #29B7DA;
 }
 #greenid-container .panel-success > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #d6e9c6;
@@ -4615,8 +4615,8 @@ a#greenid-container .bg-danger:hover {
 .greenid-datepicker-container.datepicker table tr td.active.disabled,
 .greenid-datepicker-container.datepicker table tr td.active.disabled:hover {
   color: #fff;
-  background-color: #3D8501;
-  border-color: #316c01;
+  background-color: #29B7DA;
+  border-color: #0c93b3;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .greenid-datepicker-container.datepicker table tr td.active:hover,
@@ -4636,7 +4636,7 @@ a#greenid-container .bg-danger:hover {
 .greenid-datepicker-container.datepicker table tr td.active.disabled.active,
 .greenid-datepicker-container.datepicker table tr td.active.disabled:hover.active {
   color: #fff;
-  background-color: #265201;
+  background-color: #0c93b3;
   border-color: #162f00;
 }
 .greenid-datepicker-container.datepicker table tr td.active:active,
@@ -4689,14 +4689,14 @@ a#greenid-container .bg-danger:hover {
 .greenid-datepicker-container.datepicker table tr td.active:hover[disabled].active,
 .greenid-datepicker-container.datepicker table tr td.active.disabled[disabled].active,
 .greenid-datepicker-container.datepicker table tr td.active.disabled:hover[disabled].active {
-  background-color: #3D8501;
-  border-color: #316c01;
+  background-color: #29B7DA;
+  border-color: #0c93b3;
 }
 .greenid-datepicker-container.datepicker table tr td.active .badge,
 .greenid-datepicker-container.datepicker table tr td.active:hover .badge,
 .greenid-datepicker-container.datepicker table tr td.active.disabled .badge,
 .greenid-datepicker-container.datepicker table tr td.active.disabled:hover .badge {
-  color: #3D8501;
+  color: #29B7DA;
   background-color: #fff;
 }
 .greenid-datepicker-container.datepicker table tr td span {
@@ -4723,8 +4723,8 @@ a#greenid-container .bg-danger:hover {
 .greenid-datepicker-container.datepicker table tr td span.active.disabled,
 .greenid-datepicker-container.datepicker table tr td span.active.disabled:hover {
   color: #fff;
-  background-color: #3D8501;
-  border-color: #316c01;
+  background-color: #29B7DA;
+  border-color: #0c93b3;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .greenid-datepicker-container.datepicker table tr td span.active:hover,
@@ -4744,7 +4744,7 @@ a#greenid-container .bg-danger:hover {
 .greenid-datepicker-container.datepicker table tr td span.active.disabled.active,
 .greenid-datepicker-container.datepicker table tr td span.active.disabled:hover.active {
   color: #fff;
-  background-color: #265201;
+  background-color: #0c93b3;
   border-color: #162f00;
 }
 .greenid-datepicker-container.datepicker table tr td span.active:active,
@@ -4797,14 +4797,14 @@ a#greenid-container .bg-danger:hover {
 .greenid-datepicker-container.datepicker table tr td span.active:hover[disabled].active,
 .greenid-datepicker-container.datepicker table tr td span.active.disabled[disabled].active,
 .greenid-datepicker-container.datepicker table tr td span.active.disabled:hover[disabled].active {
-  background-color: #3D8501;
-  border-color: #316c01;
+  background-color: #29B7DA;
+  border-color: #0c93b3;
 }
 .greenid-datepicker-container.datepicker table tr td span.active .badge,
 .greenid-datepicker-container.datepicker table tr td span.active:hover .badge,
 .greenid-datepicker-container.datepicker table tr td span.active.disabled .badge,
 .greenid-datepicker-container.datepicker table tr td span.active.disabled:hover .badge {
-  color: #3D8501;
+  color: #29B7DA;
   background-color: #fff;
 }
 .greenid-datepicker-container.datepicker table tr td span.old,
@@ -5001,7 +5001,7 @@ a#greenid-container .bg-danger:hover {
   color: white;
 }
 #greenid-container #greenid-source-header #greenid-source-list-container #greenid-option-list .dropdown-menu .list-group-item.active:hover {
-  background-color: #3D8501;
+  background-color: #29B7DA;
 }
 #greenid-container #greenid-source-header #greenid-source-list-container #greenid-option-list .dropdown-menu .list-group-item.onesourceleft {
   background: #d9edf7;
@@ -5074,7 +5074,7 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container #greenid-source-content #greenid_upload_queue .progress .progress-bar {
   height: 10px;
-  background: #3D8501;
+  background: #29B7DA;
 }
 #greenid-container #greenid-source-content .dd-select {
   border: none;
@@ -5109,7 +5109,7 @@ a#greenid-container .bg-danger:hover {
   cursor: pointer;
 }
 #greenid-container #greenid-source-content .certselect .greenid-certlink:hover {
-  border: 3px solid #3D8501;
+  border: 3px solid #29B7DA;
 }
 #greenid-container #greenid-source-content .certselect .greenid-certlink:disabled:hover {
   cursor: default;
@@ -5283,7 +5283,7 @@ a#greenid-container .bg-danger:hover {
   cursor: pointer;
 }
 #greenid-container #greenid-source-content .certselect .greenid-certresetlink {
-  color: #3D8501;
+  color: #29B7DA;
   text-decoration: underline;
   border: none;
   background: none;
@@ -5421,8 +5421,8 @@ a#greenid-container .bg-danger:hover {
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background-color: #3D8501;
-  border-color: #316c01;
+  background-color: #29B7DA;
+  border-color: #0c93b3;
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
@@ -5463,7 +5463,7 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .greenid-u-reset:active,
 #greenid-container .greenid-u-reset.active {
   color: #fff;
-  background-color: #265201;
+  background-color: #0c93b3;
   border-color: #162f00;
 }
 #greenid-container .greenid-u-reset:active,
@@ -5480,11 +5480,11 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .greenid-u-reset[disabled]:active,
 #greenid-container .greenid-u-reset.disabled.active,
 #greenid-container .greenid-u-reset[disabled].active {
-  background-color: #3D8501;
-  border-color: #316c01;
+  background-color: #29B7DA;
+  border-color: #0c93b3;
 }
 #greenid-container .greenid-u-reset .badge {
-  color: #3D8501;
+  color: #29B7DA;
   background-color: #fff;
 }
 #greenid-container .greenid-u-citizenshipcertificatedvs-select-cert1 {
