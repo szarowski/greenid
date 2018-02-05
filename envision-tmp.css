@@ -1,0 +1,553 @@
+/* Do not download a copy of this CSS file.  You MUST link to it directly on the greenID server:
+
+	PRODUCTION:   https://simpleui.edentiti.com/df/assets/stylesheets/greenid-mobile.css
+	TEST:         https://test2.edentiti.com/df/assets/stylesheets/greenid-mobile.css
+*/
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+#greenid-container a {
+    color: #29B7DA;
+    text-decoration: none;
+}
+#greenid-container .text-primary {
+    color: #29B7DA;
+}
+a#greenid-container .text-primary:hover {
+    color: #0c93b3;
+}
+#greenid-container .text-success {
+    color: #29B7DA;
+}
+a#greenid-container .text-success:hover {
+    color: #0c93b3;
+}
+#greenid-container .text-info {
+    color: #31708f;
+}
+a#greenid-container .text-info:hover {
+    color: #245269;
+}
+#greenid-container .bg-primary {
+    color: #fff;
+    background-color: #29B7DA;
+}
+a#greenid-container .bg-primary:hover {
+    background-color: #0c93b3;
+}
+#greenid-container .has-success .help-block,
+#greenid-container .has-success .control-label,
+#greenid-container .has-success .radio,
+#greenid-container .has-success .checkbox,
+#greenid-container .has-success .radio-inline,
+#greenid-container .has-success .checkbox-inline {
+    color: #29B7DA;
+}
+#greenid-container .has-success .form-control {
+    border-color: #29B7DA;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#greenid-container .has-success .form-control:focus {
+    border-color: #0c93b3;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #29B7DA;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #29B7DA;
+}
+#greenid-container .has-success .input-group-addon {
+    color: #29B7DA;
+    border-color: #29B7DA;
+    background-color: #dff0d8;
+}
+#greenid-container .has-success .form-control-feedback {
+    color: #29B7DA;
+}
+#greenid-container .btn-primary {
+    color: #fff;
+    background-color: #29B7DA;
+    border-color: #29B7DA;
+}
+#greenid-container .btn-primary:hover,
+#greenid-container .btn-primary:focus,
+#greenid-container .btn-primary:active,
+#greenid-container .btn-primary.active {
+    color: #fff;
+    background-color: #0c93b3;
+    border-color: #162f00;
+}
+#greenid-container .btn-primary:active,
+#greenid-container .btn-primary.active {
+    background-image: none;
+}
+#greenid-container .btn-primary.disabled,
+#greenid-container .btn-primary[disabled],
+#greenid-container .btn-primary.disabled:hover,
+#greenid-container .btn-primary[disabled]:hover,
+#greenid-container .btn-primary.disabled:focus,
+#greenid-container .btn-primary[disabled]:focus,
+#greenid-container .btn-primary.disabled:active,
+#greenid-container .btn-primary[disabled]:active,
+#greenid-container .btn-primary.disabled.active,
+#greenid-container .btn-primary[disabled].active {
+    background-color: #29B7DA;
+    border-color: #0c93b3;
+}
+#greenid-container .btn-primary .badge {
+    color: #29B7DA;
+    background-color: #fff;
+}
+#greenid-container .btn-success {
+    color: #fff;
+    background-color: #29B7DA;
+    border-color: #29B7DA;
+}
+#greenid-container .btn-success:hover,
+#greenid-container .btn-success:focus,
+#greenid-container .btn-success:active,
+#greenid-container .btn-success.active {
+    color: #fff;
+    background-color: #29B7DA;
+    border-color: #29B7DA;
+}
+#greenid-container .btn-success:active,
+#greenid-container .btn-success.active {
+    background-image: none;
+}
+#greenid-container .btn-success.disabled,
+#greenid-container .btn-success[disabled],
+#greenid-container .btn-success.disabled:hover,
+#greenid-container .btn-success[disabled]:hover,
+#greenid-container .btn-success.disabled:focus,
+#greenid-container .btn-success[disabled]:focus,
+#greenid-container .btn-success.disabled:active,
+#greenid-container .btn-success[disabled]:active,
+#greenid-container .btn-success.disabled.active,
+#greenid-container .btn-success[disabled].active {
+    background-color: #29B7DA;
+    border-color: #29B7DA;
+}
+#greenid-container .btn-success .badge {
+    color: #29B7DA;
+    background-color: #fff;
+}
+#greenid-container .btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+#greenid-container .btn-info:hover,
+#greenid-container .btn-info:focus,
+#greenid-container .btn-info:active,
+#greenid-container .btn-info.active {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+#greenid-container .btn-info:active,
+#greenid-container .btn-info.active {
+    background-image: none;
+}
+#greenid-container .btn-info.disabled,
+#greenid-container .btn-info[disabled],
+#greenid-container .btn-info.disabled:hover,
+#greenid-container .btn-info[disabled]:hover,
+#greenid-container .btn-info.disabled:focus,
+#greenid-container .btn-info[disabled]:focus,
+#greenid-container .btn-info.disabled:active,
+#greenid-container .btn-info[disabled]:active,
+#greenid-container .btn-info.disabled.active,
+#greenid-container .btn-info[disabled].active {
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+#greenid-container .btn-info .badge {
+    color: #5bc0de;
+    background-color: #fff;
+}
+#greenid-container .btn-link {
+    color: #29B7DA;
+    font-weight: normal;
+    cursor: pointer;
+    border-radius: 0;
+}
+#greenid-container .dropdown-menu > .active > a,
+#greenid-container .dropdown-menu > .active > a:hover,
+#greenid-container .dropdown-menu > .active > a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #29B7DA;
+}
+#greenid-container .greenid-alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #29B7DA;
+}
+#greenid-container .greenid-alert-success .alert-link {
+    color: #0c93b3;
+}
+#greenid-container .list-group-item.active,
+#greenid-container .list-group-item.active:hover,
+#greenid-container .list-group-item.active:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #29B7DA;
+    border-color: #29B7DA;
+}
+#greenid-container .list-group-item.active .list-group-item-text,
+#greenid-container .list-group-item.active:hover .list-group-item-text,
+#greenid-container .list-group-item.active:focus .list-group-item-text {
+    color: #9ed9e7;
+}
+#greenid-container .panel-primary {
+    border-color: #29B7DA;
+}
+#greenid-container .panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #29B7DA;
+    border-color: #29B7DA;
+}
+#greenid-container .panel-primary > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #29B7DA;
+}
+#greenid-container .panel-primary > .panel-heading .badge {
+    color: #29B7DA;
+    background-color: #fff;
+}
+#greenid-container .panel-primary > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #29B7DA;
+}
+#greenid-container .panel-success > .panel-heading {
+    color: #29B7DA;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+#greenid-container .panel-success > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #d6e9c6;
+}
+#greenid-container .panel-success > .panel-heading .badge {
+    color: #dff0d8;
+    background-color: #29B7DA;
+}
+.greenid-datepicker-container.datepicker table tr td.active,
+.greenid-datepicker-container.datepicker table tr td.active:hover,
+.greenid-datepicker-container.datepicker table tr td.active.disabled,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover {
+    color: #fff;
+    background-color: #29B7DA;
+    border-color: #0c93b3;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.greenid-datepicker-container.datepicker table tr td.active:hover,
+.greenid-datepicker-container.datepicker table tr td.active:hover:hover,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover:hover,
+.greenid-datepicker-container.datepicker table tr td.active:focus,
+.greenid-datepicker-container.datepicker table tr td.active:hover:focus,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:focus,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover:focus,
+.greenid-datepicker-container.datepicker table tr td.active:active,
+.greenid-datepicker-container.datepicker table tr td.active:hover:active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover:active,
+.greenid-datepicker-container.datepicker table tr td.active.active,
+.greenid-datepicker-container.datepicker table tr td.active:hover.active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled.active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover.active {
+    color: #fff;
+    background-color: #0c93b3;
+    border-color: #162f00;
+}
+.greenid-datepicker-container.datepicker table tr td.active:active,
+.greenid-datepicker-container.datepicker table tr td.active:hover:active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover:active,
+.greenid-datepicker-container.datepicker table tr td.active.active,
+.greenid-datepicker-container.datepicker table tr td.active:hover.active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled.active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover.active {
+    background-image: none;
+}
+.greenid-datepicker-container.datepicker table tr td.active.disabled,
+.greenid-datepicker-container.datepicker table tr td.active:hover.disabled,
+.greenid-datepicker-container.datepicker table tr td.active.disabled.disabled,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover.disabled,
+.greenid-datepicker-container.datepicker table tr td.active[disabled],
+.greenid-datepicker-container.datepicker table tr td.active:hover[disabled],
+.greenid-datepicker-container.datepicker table tr td.active.disabled[disabled],
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover[disabled],
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover,
+.greenid-datepicker-container.datepicker table tr td.active:hover.disabled:hover,
+.greenid-datepicker-container.datepicker table tr td.active.disabled.disabled:hover,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover.disabled:hover,
+.greenid-datepicker-container.datepicker table tr td.active[disabled]:hover,
+.greenid-datepicker-container.datepicker table tr td.active:hover[disabled]:hover,
+.greenid-datepicker-container.datepicker table tr td.active.disabled[disabled]:hover,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover[disabled]:hover,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:focus,
+.greenid-datepicker-container.datepicker table tr td.active:hover.disabled:focus,
+.greenid-datepicker-container.datepicker table tr td.active.disabled.disabled:focus,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover.disabled:focus,
+.greenid-datepicker-container.datepicker table tr td.active[disabled]:focus,
+.greenid-datepicker-container.datepicker table tr td.active:hover[disabled]:focus,
+.greenid-datepicker-container.datepicker table tr td.active.disabled[disabled]:focus,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover[disabled]:focus,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:active,
+.greenid-datepicker-container.datepicker table tr td.active:hover.disabled:active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled.disabled:active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover.disabled:active,
+.greenid-datepicker-container.datepicker table tr td.active[disabled]:active,
+.greenid-datepicker-container.datepicker table tr td.active:hover[disabled]:active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled[disabled]:active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover[disabled]:active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled.active,
+.greenid-datepicker-container.datepicker table tr td.active:hover.disabled.active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled.disabled.active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover.disabled.active,
+.greenid-datepicker-container.datepicker table tr td.active[disabled].active,
+.greenid-datepicker-container.datepicker table tr td.active:hover[disabled].active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled[disabled].active,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover[disabled].active {
+    background-color: #29B7DA;
+    border-color: #0c93b3;
+}
+.greenid-datepicker-container.datepicker table tr td.active .badge,
+.greenid-datepicker-container.datepicker table tr td.active:hover .badge,
+.greenid-datepicker-container.datepicker table tr td.active.disabled .badge,
+.greenid-datepicker-container.datepicker table tr td.active.disabled:hover .badge {
+    color: #29B7DA;
+    background-color: #fff;
+}
+.greenid-datepicker-container.datepicker table tr td span.active.disabled,
+.greenid-datepicker-container.datepicker table tr td span.active:hover.disabled,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled.disabled,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover.disabled,
+.greenid-datepicker-container.datepicker table tr td span.active[disabled],
+.greenid-datepicker-container.datepicker table tr td span.active:hover[disabled],
+.greenid-datepicker-container.datepicker table tr td span.active.disabled[disabled],
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover[disabled],
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover,
+.greenid-datepicker-container.datepicker table tr td span.active:hover.disabled:hover,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled.disabled:hover,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover.disabled:hover,
+.greenid-datepicker-container.datepicker table tr td span.active[disabled]:hover,
+.greenid-datepicker-container.datepicker table tr td span.active:hover[disabled]:hover,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled[disabled]:hover,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover[disabled]:hover,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:focus,
+.greenid-datepicker-container.datepicker table tr td span.active:hover.disabled:focus,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled.disabled:focus,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover.disabled:focus,
+.greenid-datepicker-container.datepicker table tr td span.active[disabled]:focus,
+.greenid-datepicker-container.datepicker table tr td span.active:hover[disabled]:focus,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled[disabled]:focus,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover[disabled]:focus,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:active,
+.greenid-datepicker-container.datepicker table tr td span.active:hover.disabled:active,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled.disabled:active,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover.disabled:active,
+.greenid-datepicker-container.datepicker table tr td span.active[disabled]:active,
+.greenid-datepicker-container.datepicker table tr td span.active:hover[disabled]:active,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled[disabled]:active,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover[disabled]:active,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled.active,
+.greenid-datepicker-container.datepicker table tr td span.active:hover.disabled.active,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled.disabled.active,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover.disabled.active,
+.greenid-datepicker-container.datepicker table tr td span.active[disabled].active,
+.greenid-datepicker-container.datepicker table tr td span.active:hover[disabled].active,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled[disabled].active,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover[disabled].active {
+    background-color: #29B7DA;
+    border-color: #0c93b3;
+}
+.greenid-datepicker-container.datepicker table tr td span.active .badge,
+.greenid-datepicker-container.datepicker table tr td span.active:hover .badge,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled .badge,
+.greenid-datepicker-container.datepicker table tr td span.active.disabled:hover .badge {
+    color: #29B7DA;
+    background-color: #fff;
+}
+#greenid-container #greenid-source-header #greenid-source-list-container #greenid-option-list .dropdown-menu .list-group-item.active:hover {
+    background-color: #29B7DA;
+}
+#greenid-container #greenid-source-content #greenid_upload_queue .progress .progress-bar {
+    height: 10px;
+    background: #29B7DA;
+}
+#greenid-container #greenid-source-content .certselect .greenid-certlink:hover {
+    border: 3px solid #29B7DA;
+}
+#greenid-container #greenid-source-content .certselect .greenid-certresetlink {
+    color: #29B7DA;
+    text-decoration: underline;
+    border: none;
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+#greenid-container .greenid-u-reset {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #29B7DA;
+    border-color: #0c93b3;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    display: block;
+    margin-top: 5px;
+}
+#greenid-container .greenid-u-reset:hover,
+#greenid-container .greenid-u-reset:focus,
+#greenid-container .greenid-u-reset:active,
+#greenid-container .greenid-u-reset.active {
+    color: #fff;
+    background-color: #0c93b3;
+    border-color: #162f00;
+}
+#greenid-container .greenid-u-reset:active,
+#greenid-container .greenid-u-reset.active {
+    background-image: none;
+}
+#greenid-container .greenid-u-reset.disabled,
+#greenid-container .greenid-u-reset[disabled],
+#greenid-container .greenid-u-reset.disabled:hover,
+#greenid-container .greenid-u-reset[disabled]:hover,
+#greenid-container .greenid-u-reset.disabled:focus,
+#greenid-container .greenid-u-reset[disabled]:focus,
+#greenid-container .greenid-u-reset.disabled:active,
+#greenid-container .greenid-u-reset[disabled]:active,
+#greenid-container .greenid-u-reset.disabled.active,
+#greenid-container .greenid-u-reset[disabled].active {
+    background-color: #29B7DA;
+    border-color: #0c93b3;
+}
+#greenid-container .greenid-u-reset .badge {
+    color: #29B7DA;
+    background-color: #fff;
+}
+.greenid-so-modal#greenid-wait-modal .modal-body {
+    font-family: 'HelveticaNeueLTStd-Th';
+    font-size: 29px;
+    color: #29B7DA;
+    padding: 30px;
+}
+.greenid-so-content #greenid-container .greenid-so-content-dropcap {
+    position: absolute;
+    left: -40px;
+    top: -13px;
+    font-size: 50px;
+    font-family: 'HelveticaNeueLTStd-Th';
+    font-weight: normal;
+    color: #29B7DA;
+}
+.greenid-so-content #greenid-container .greenid-so-content-select-item-hover {
+    text-decoration: none;
+    background-color: #29B7DA;
+    color: white;
+}
+.greenid-so-content #greenid-container .greenid-so-content-select-item-selected {
+    background-image: url('/df/assets/images/so-select-item-selected.png');
+    background-color: rgba(69, 115, 39, 0.1);
+    color: #29B7DA;
+    z-index: 100;
+    text-decoration: none;
+}
+.greenid-so-content #greenid-container .greenid-so-content-select-item-selected:focus,
+.greenid-so-content #greenid-container .greenid-so-content-select-item-selected:hover {
+    color: #29B7DA;
+    background-color: rgba(69, 115, 39, 0.1);
+}
+.greenid-so-content #greenid-container .btn-primary {
+    background-color: #29B7DA;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 100%;
+    font-size: 17px;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.greenid-so-content #greenid-container .btn-back {
+    color: #29B7DA;
+    background-image: url('/df/assets/images/so-btn-back-arrow.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 18px 25px;
+    background-color: white;
+    padding: 4px 0 0 25px;
+    border: none;
+    font-size: 18px;
+    margin-left: -20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 1;
+}
+.greenid-so-content #greenid-container .btn-cancel {
+    color: #29B7DA;
+    background-image: url('/df/assets/images/so-btn-cancel-icon.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-color: white;
+    padding: 4px 0 0 23px;
+    border: none;
+    font-size: 18px;
+    margin-left: -15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 1;
+}
+.greenid-so-content #greenid-container .btn-complete-later {
+    color: #29B7DA;
+    background-image: url('/df/assets/images/so-btn-forward-arrow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 18px 25px;
+    background-color: white;
+    padding: 4px 23px 0 0;
+    border: none;
+    font-size: 18px;
+    margin-right: -20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 1;
+}
+.greenid-so-content #greenid-container .input-group-btn button:focus,
+.greenid-so-content #greenid-container .input-group-btn button:hover {
+    border-color: #D7D7DB;
+    color: #29B7DA;
+}
+.greenid-so-content #greenid-container .greenid-modal .btn-default,
+.greenid-so-content #greenid-container #greenid-source-content #greenid-source-cancel.btn-default {
+    background-color: white;
+    color: #29B7DA;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 100%;
+    font-size: 17px;
+    border: 1px solid #29B7DA;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-left: 0;
+}
