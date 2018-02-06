@@ -549,6 +549,9 @@ a#greenid-container .bg-primary:hover {
     top: 0;
     left: 0;
     line-height: 1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 }
 .greenid-so-content #greenid-container .btn-cancel {
     color: #29B7DA;
@@ -564,6 +567,9 @@ a#greenid-container .bg-primary:hover {
     top: 0;
     left: 0;
     line-height: 1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 }
 .greenid-so-content #greenid-container .btn-complete-later {
     color: #29B7DA;
@@ -579,6 +585,9 @@ a#greenid-container .bg-primary:hover {
     top: 0;
     right: 0;
     line-height: 1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 }
 .greenid-so-content #greenid-container .input-group-btn button:focus,
 .greenid-so-content #greenid-container .input-group-btn button:hover {
@@ -594,8 +603,8 @@ a#greenid-container .bg-primary:hover {
     width: 100%;
     font-size: 17px;
     border: 1px solid #29B7DA;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    margin-left: 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin-left: 30px;
 }
