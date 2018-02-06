@@ -470,8 +470,8 @@ a#greenid-container .bg-primary:hover {
 }
 @media (max-width: 320px) {
     .greenid-so-modal .greenid-loader-container {
-        height: 32px;
-        background-size: 32px;
+        height: 128px;
+        background-size: 128px;
     }
 }
 .greenid-so-modal .greenid-loader-container #greenid-loader-gif {
