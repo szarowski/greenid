@@ -477,6 +477,27 @@ a#greenid-container .bg-primary:hover {
 .greenid-so-modal .greenid-loader-container #greenid-loader-gif {
     display: none;
 }
+.greenid-so-content #greenid-container h1 {
+    color: #29B7DA;
+    font-family: 'HelveticaNeueLTStd-Th';
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.greenid-so-content #greenid-container h2 {
+    color: #29B7DA;
+    font-family: 'HelveticaNeueLTStd-Lt';
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 1.1;
+}
+.greenid-so-content #greenid-container h4 {
+    font-family: 'HelveticaNeueLTStd-Md';
+    font-weight: normal;
+    color: #29B7DA;
+}
 .greenid-so-content #greenid-container .greenid-so-content-dropcap {
     position: absolute;
     left: -40px;
@@ -492,7 +513,6 @@ a#greenid-container .bg-primary:hover {
     color: white;
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item-selected {
-    background-image: url('/df/assets/images/so-select-item-selected.png');
     background-color: rgba(69, 115, 39, 0.1);
     color: #29B7DA;
     z-index: 100;
@@ -517,7 +537,6 @@ a#greenid-container .bg-primary:hover {
 }
 .greenid-so-content #greenid-container .btn-back {
     color: #29B7DA;
-    background-image: url('/df/assets/images/so-btn-back-arrow.png');
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 18px 25px;
@@ -533,7 +552,6 @@ a#greenid-container .bg-primary:hover {
 }
 .greenid-so-content #greenid-container .btn-cancel {
     color: #29B7DA;
-    background-image: url('/df/assets/images/so-btn-cancel-icon.png');
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 15px 15px;
@@ -549,7 +567,6 @@ a#greenid-container .bg-primary:hover {
 }
 .greenid-so-content #greenid-container .btn-complete-later {
     color: #29B7DA;
-    background-image: url('/df/assets/images/so-btn-forward-arrow.png');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: 18px 25px;
