@@ -606,5 +606,5 @@ a#greenid-container .bg-primary:hover {
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-    margin-left: 30px;
+    margin-left: 0;
 }
