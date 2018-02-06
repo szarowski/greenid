@@ -459,7 +459,7 @@ a#greenid-container .bg-primary:hover {
 }
 .greenid-so-modal .greenid-loader-container {
     display: block;
-    width: 100%;
+    width: 128px;
     height: 128px;
     text-align: center;
     background-image: url('https://raw.githubusercontent.com/szarowski/greenid/master/spinner_grey.gif');
@@ -531,9 +531,9 @@ a#greenid-container .bg-primary:hover {
     width: 100%;
     font-size: 17px;
     border: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 }
 .greenid-so-content #greenid-container .btn-back {
     color: #29B7DA;
