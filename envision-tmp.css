@@ -455,7 +455,7 @@ a#greenid-container .bg-primary:hover {
     font-family: 'HelveticaNeueLTStd-Th';
     font-size: 29px;
     color: #29B7DA;
-    padding: 30px;
+    padding: 0;
 }
 .greenid-so-modal .greenid-loader-container {
     display: block;
