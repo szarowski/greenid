@@ -457,6 +457,26 @@ a#greenid-container .bg-primary:hover {
     color: #29B7DA;
     padding: 30px;
 }
+.greenid-so-modal .greenid-loader-container {
+    display: block;
+    width: 100%;
+    height: 320px;
+    text-align: center;
+    background-image: url('/df/assets/images/so-spinner-grey.gif');
+    background-size: 320px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 10px;
+}
+@media (max-width: 320px) {
+    .greenid-so-modal .greenid-loader-container {
+        height: 300px;
+        background-size: 300px;
+    }
+}
+.greenid-so-modal .greenid-loader-container #greenid-loader-gif {
+    display: none;
+}
 .greenid-so-content #greenid-container .greenid-so-content-dropcap {
     position: absolute;
     left: -40px;
