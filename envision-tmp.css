@@ -459,7 +459,7 @@ a#greenid-container .bg-primary:hover {
 }
 .greenid-so-modal .greenid-loader-container {
     display: block;
-    width: 128px;
+    width: 100%;
     height: 128px;
     text-align: center;
     background-image: url('https://raw.githubusercontent.com/szarowski/greenid/master/spinner_grey.gif');
