@@ -1,5 +1,5 @@
 /* Do not download a copy of this CSS file.  You MUST link to it directly on the greenID server:
-	
+
 	PRODUCTION:   https://simpleui.edentiti.com/df/assets/stylesheets/greenid-mobile.css
 	TEST:         https://test2.edentiti.com/df/assets/stylesheets/greenid-mobile.css
 */
@@ -987,7 +987,7 @@
 #greenid-container {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -1100,6 +1100,7 @@
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
+  text-align: center;
 }
 #greenid-container h1 small,
 #greenid-container h2 small,
@@ -1201,6 +1202,7 @@
 }
 #greenid-container p {
   margin: 0 0 10px;
+  text-align: center;
 }
 #greenid-container .lead {
   margin-bottom: 20px;
@@ -1318,6 +1320,7 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container ul,
 #greenid-container ol {
+  padding-left: 0;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -2693,11 +2696,10 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container .btn-primary:hover,
 #greenid-container .btn-primary:focus,
-#greenid-container .btn-primary:active,
 #greenid-container .btn-primary.active {
   color: #fff;
   background-color: #0c93b3;
-  border-color: #162f00;
+  border-color: #0c93b3;
 }
 #greenid-container .btn-primary:active,
 #greenid-container .btn-primary.active {
@@ -2713,7 +2715,7 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .btn-primary[disabled]:active,
 #greenid-container .btn-primary.disabled.active,
 #greenid-container .btn-primary[disabled].active {
-  background-color: #29B7DA;
+  background-color: #0c93b3;
   border-color: #0c93b3;
 }
 #greenid-container .btn-primary .badge {
@@ -2730,8 +2732,8 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .btn-success:active,
 #greenid-container .btn-success.active {
   color: #fff;
-  background-color: #29B7DA;
-  border-color: #29B7DA;
+  background-color: #0c93b3;
+  border-color: #0c93b3;
 }
 #greenid-container .btn-success:active,
 #greenid-container .btn-success.active {
@@ -2747,8 +2749,8 @@ a#greenid-container .bg-danger:hover {
 #greenid-container .btn-success[disabled]:active,
 #greenid-container .btn-success.disabled.active,
 #greenid-container .btn-success[disabled].active {
-  background-color: #29B7DA;
-  border-color: #29B7DA;
+  background-color: #0c93b3;
+  border-color: #0c93b3;
 }
 #greenid-container .btn-success .badge {
   color: #29B7DA;
@@ -5711,28 +5713,8 @@ a#greenid-container .bg-danger:hover {
   width: 25px;
   height: 25px;
 }
-@font-face {
-  font-family: 'HelveticaNeueLTStd-Lt';
-  src: url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_0_0.eot');
-  src: url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_0_0.eot?#iefix') format('embedded-opentype'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_0_0.woff2') format('woff2'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_0_0.woff') format('woff'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_0_0.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'HelveticaNeueLTStd-Roman';
-  src: url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_1_0.eot');
-  src: url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_1_0.eot?#iefix') format('embedded-opentype'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_1_0.woff2') format('woff2'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_1_0.woff') format('woff'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_1_0.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'HelveticaNeueLTStd-Th';
-  src: url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_2_0.eot');
-  src: url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_2_0.eot?#iefix') format('embedded-opentype'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_2_0.woff2') format('woff2'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_2_0.woff') format('woff'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_2_0.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'HelveticaNeueLTStd-Md';
-  src: url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_3_0.eot');
-  src: url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_3_0.eot?#iefix') format('embedded-opentype'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_3_0.woff2') format('woff2'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_3_0.woff') format('woff'), url('/df/assets/fonts/helvetica-neue/webfonts/2F42F7_3_0.ttf') format('truetype');
-}
 .greenid-so {
-  font-family: 'HelveticaNeueLTStd-Roman';
+  font-family: 'Lato';
   margin: 0;
 }
 .greenid-so #greenid-div {
@@ -5747,7 +5729,7 @@ a#greenid-container .bg-danger:hover {
   box-shadow: none;
 }
 .greenid-so-modal#greenid-wait-modal .modal-body {
-  font-family: 'HelveticaNeueLTStd-Th';
+  font-family: 'Lato';
   font-size: 29px;
   color: #29B7DA;
   padding: 30px;
@@ -5858,6 +5840,7 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-so-content #greenid-container {
   margin-bottom: 30px;
+  text-align: center;
 }
 .greenid-so-content #greenid-container .form-group {
   margin-bottom: 20px;
@@ -5877,7 +5860,7 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-so-content #greenid-container h1 {
   color: #29B7DA;
-  font-family: 'HelveticaNeueLTStd-Th';
+  font-family: 'Lato';
   font-weight: normal;
   font-size: 35px;
   line-height: 1.1;
@@ -5890,12 +5873,12 @@ a#greenid-container .bg-danger:hover {
   }
 }
 .greenid-so-content #greenid-container h1 strong {
-  font-family: 'HelveticaNeueLTStd-Lt';
+  font-family: 'Lato';
   font-weight: normal;
 }
 .greenid-so-content #greenid-container h2 {
   color: #29B7DA;
-  font-family: 'HelveticaNeueLTStd-Lt';
+  font-family: 'Lato';
   font-weight: normal;
   font-size: 28px;
   line-height: 1.1;
@@ -5906,7 +5889,7 @@ a#greenid-container .bg-danger:hover {
   }
 }
 .greenid-so-content #greenid-container h4 {
-  font-family: 'HelveticaNeueLTStd-Md';
+  font-family: 'Lato';
   font-weight: normal;
   color: #29B7DA;
 }
@@ -5942,13 +5925,13 @@ a#greenid-container .bg-danger:hover {
   }
 }
 .greenid-so-content #greenid-container strong {
-  font-family: 'HelveticaNeueLTStd-Md';
+  font-family: 'Lato';
   font-weight: normal;
 }
 .greenid-so-content #greenid-container label {
   font-size: 16px;
   color: #555;
-  font-family: 'HelveticaNeueLTStd-Lt';
+  font-family: 'Lato';
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -6049,7 +6032,7 @@ a#greenid-container .bg-danger:hover {
   left: -40px;
   top: -13px;
   font-size: 50px;
-  font-family: 'HelveticaNeueLTStd-Th';
+  font-family: 'Lato';
   font-weight: normal;
   color: #29B7DA;
 }
@@ -6061,9 +6044,9 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container .greenid-so-content-dropcap-listitem {
   list-style: none;
   position: relative;
-  padding-left: 15px;
   margin-bottom: 1.5em;
-  min-height: 50px;
+  min-height: 20px;
+  text-align: center;
 }
 .greenid-so-content #greenid-container .greenid-so-content-dropcap-listitem:last-of-type {
   margin-bottom: 0.5em;
@@ -6346,7 +6329,7 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container .greenid-so-content-agree-label {
   font-size: 16px;
   color: #555;
-  font-family: 'HelveticaNeueLTStd-Lt';
+  font-family: 'Lato';
   font-weight: normal;
   padding-left: 25px;
   margin-bottom: 0;
@@ -6363,7 +6346,7 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container .greenid-so-content-agree-intro {
   font-size: 16px;
   color: #555;
-  font-family: 'HelveticaNeueLTStd-Lt';
+  font-family: 'Lato';
   font-weight: normal;
   text-transform: none;
 }
@@ -6385,7 +6368,7 @@ a#greenid-container .bg-danger:hover {
   white-space: nowrap !important;
 }
 .greenid-so-content #greenid-container .btn {
-  font-family: 'HelveticaNeueLTStd-Roman';
+  font-family: 'Lato';
 }
 .greenid-so-content #greenid-container .btn-next {
   background-size: 49px 35px;
@@ -6414,20 +6397,22 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container .btn-primary {
   background-color: #29B7DA;
   color: white;
-  text-transform: uppercase;
   padding: 15px;
-  width: 100%;
-  font-size: 17px;
+  width: 250px;
+  font-size: 20px;
   border: none;
   -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-primary {
     font-size: 12.75px;
     padding: 11.25px;
   }
+}
+.greenid-so-content #greenid-container .btn-primary:active {
+  background-color: #0c93b3;
 }
 .greenid-so-content #greenid-container .btn-primary:disabled {
   opacity: 1;
@@ -6700,7 +6685,7 @@ a#greenid-container .bg-danger:hover {
   line-height: 3px;
 }
 .greenid-so-content #greenid-container #greenid-option-list h2 {
-  font-family: 'HelveticaNeueLTStd-Md';
+  font-family: 'Lato';
   font-weight: normal;
   font-size: 18px;
 }
