@@ -1,0 +1,39 @@
+#envision-container {
+    font-family: 'Lato', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    color: #666465;
+    line-height: 1.1;
+    font-size: 16px
+}
+#envision-container .envision-headline {
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+#envision-container .envision-back {
+    font-size: 20px;
+    color: #29B7DA;
+    background-color: #ffffff;
+    line-height: 1.1;
+    text-align: left;
+}
+#envision-container .envision-nav button {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #29B7DA;
+    border-radius: 20px;
+    width: 250px;
+    height: 36px;
+}
+#envision-container .envision-nav button:active {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #0c93b3;
+    border-radius: 20px;
+    width: 250px;
+    height: 36px;
+}
