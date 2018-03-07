@@ -6086,20 +6086,19 @@ a#greenid-container .bg-danger:hover {
   list-style: none;
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item {
-  text-decoration: none;
-  text-align: left;
-  border: 1px solid #D7D7DB;
-  background: #F9F9F9;
-  margin-bottom: 10px;
-  padding: 17px 50px 15px 70px;
-  color: black;
-  display: block;
-  text-transform: uppercase;
-  font-size: 17px;
-  background-position: 15px center, right 20px center;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: 40px, 23px 24px;
+  background-color: #29B7DA;
+  color: white;
+  padding: 15px;
+  width: 250px;
+  font-size: 20px;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  margin: 20px auto;
+}
+.greenid-so-content #greenid-container .greenid-so-content-select-item:active {
+  background-color: #0c93b3;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .greenid-so-content-select-item {
@@ -6115,7 +6114,7 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item-nohover:focus,
 .greenid-so-content #greenid-container .greenid-so-content-select-item-nohover:hover {
-  background-color: #F9F9F9;
+  background-color: #29B7DA;
   color: black;
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item-state {
@@ -6127,13 +6126,14 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item-description {
   display: block;
-  font-size: 15px;
+  font-size: 20px;
   text-transform: none;
-  opacity: 0.7;
+  opacity: 1.0;
+  text-align: center;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .greenid-so-content-select-item-description {
-    font-size: 12.75px;
+    font-size: 20px;
   }
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item-smalltext {
@@ -6154,7 +6154,7 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item-selectable:focus,
 .greenid-so-content #greenid-container .greenid-so-content-select-item-selectable:hover {
-  background-color: #F9F9F9;
+  background-color: #29B7DA;
   color: black;
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item-selectable-has-error {
