@@ -6095,7 +6095,7 @@ a#greenid-container .bg-danger:hover {
   -webkit-border-radius: 0;
   -moz-border-radius: 30px;
   border-radius: 30px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item:active {
   background-color: #0c93b3;
