@@ -5931,7 +5931,7 @@ a#greenid-container .bg-danger:hover {
   font-weight: normal;
 }
 .greenid-so-content #greenid-container label {
-  font-size: 15px;
+  font-size: 14px;
   color: #555;
   font-family: 'Lato';
   font-weight: normal;
@@ -5963,6 +5963,7 @@ a#greenid-container .bg-danger:hover {
   border-radius: 0;
   -webkit-appearance: none;
   font-size: 18px;
+  font-weight: bolder;
   height: 46px;
   line-height: 0.7;
   cursor: auto;
@@ -6001,6 +6002,7 @@ a#greenid-container .bg-danger:hover {
   border-radius: 0;
   -webkit-appearance: none;
   font-size: 18px;
+  font-weight: bolder;
   padding: 15px;
   padding-top: 10px;
   min-height: 46px;
