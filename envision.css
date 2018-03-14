@@ -6417,6 +6417,7 @@ a#greenid-container .bg-danger:hover {
   -webkit-border-radius: 0;
   -moz-border-radius: 30px;
   border-radius: 30px;
+  text-transform: capitalize;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-primary {
