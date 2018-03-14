@@ -5968,6 +5968,7 @@ a#greenid-container .bg-danger:hover {
   line-height: 0.7;
   cursor: auto;
   padding: 10px 0;
+  margin-top: 1px;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container input[type='text'],
@@ -6008,6 +6009,7 @@ a#greenid-container .bg-danger:hover {
   min-height: 46px;
   line-height: 1.3;
   padding: 10px 0;
+  margin-top: 1px;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container textarea {
