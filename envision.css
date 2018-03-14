@@ -3614,6 +3614,8 @@ a#greenid-container .bg-danger:hover {
   position: relative;
   font-size: 0;
   white-space: nowrap;
+  border: none;
+  border-bottom: 1px solid #D7D7DB;
 }
 #greenid-container .input-group-btn > .btn {
   position: relative;
@@ -5859,7 +5861,7 @@ a#greenid-container .bg-danger:hover {
   }
 }
 .greenid-so-content #greenid-container h1 {
-  color: #29B7DA;
+  color: #333333;
   font-family: 'Lato';
   font-weight: normal;
   font-size: 35px;
@@ -5929,11 +5931,14 @@ a#greenid-container .bg-danger:hover {
   font-weight: normal;
 }
 .greenid-so-content #greenid-container label {
-  font-size: 16px;
+  font-size: 14px;
   color: #555;
   font-family: 'Lato';
   font-weight: normal;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  display: block;
+  text-align: left;
+  margin-bottom: 0;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container label {
@@ -5951,15 +5956,19 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container input[type='password'],
 .greenid-so-content #greenid-container input[type='datetime'],
 .greenid-so-content #greenid-container input[type='month'] {
-  background: #F9F9F9;
-  border: 1px solid #D7D7DB;
+  background: #FFF;
+  border: none;
+  border-bottom: 1px solid #D7D7DB;
   box-shadow: none;
   border-radius: 0;
   -webkit-appearance: none;
   font-size: 18px;
-  padding: 15px;
+  font-weight: bolder;
   height: 46px;
   line-height: 0.7;
+  cursor: auto;
+  padding: 10px 0;
+  margin-top: 1px;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container input[type='text'],
@@ -5987,16 +5996,20 @@ a#greenid-container .bg-danger:hover {
   }
 }
 .greenid-so-content #greenid-container textarea {
-  background: #F9F9F9;
-  border: 1px solid #D7D7DB;
+  background: #FFF;
+  border: none;
+  border-bottom: 1px solid #D7D7DB;
   box-shadow: none;
   border-radius: 0;
   -webkit-appearance: none;
   font-size: 18px;
+  font-weight: bolder;
   padding: 15px;
   padding-top: 10px;
   min-height: 46px;
   line-height: 1.3;
+  padding: 10px 0;
+  margin-top: 1px;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container textarea {
@@ -6404,6 +6417,7 @@ a#greenid-container .bg-danger:hover {
   -webkit-border-radius: 0;
   -moz-border-radius: 30px;
   border-radius: 30px;
+  text-transform: capitalize;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-primary {
@@ -6555,6 +6569,9 @@ a#greenid-container .bg-danger:hover {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  background: #FFF;
+  border: none;
+  border-bottom: 1px solid #D7D7DB;
 }
 .greenid-so-content #greenid-container .input-group-btn button {
   height: 46px;
@@ -6565,6 +6582,7 @@ a#greenid-container .bg-danger:hover {
   border-left: none;
   background: #F9F9F9;
   color: #bbb;
+  visibility: hidden;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .input-group-btn button {
