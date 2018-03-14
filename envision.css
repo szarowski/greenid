@@ -5929,11 +5929,14 @@ a#greenid-container .bg-danger:hover {
   font-weight: normal;
 }
 .greenid-so-content #greenid-container label {
-  font-size: 16px;
+  font-size: 15px;
   color: #555;
   font-family: 'Lato';
   font-weight: normal;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  display: block;
+  text-align: left;
+  margin-bottom: 0;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container label {
@@ -5951,8 +5954,9 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container input[type='password'],
 .greenid-so-content #greenid-container input[type='datetime'],
 .greenid-so-content #greenid-container input[type='month'] {
-  background: #F9F9F9;
-  border: 1px solid #D7D7DB;
+  background: #FFF;
+  border: none;
+  border-bottom: 1px solid #D7D7DB;
   box-shadow: none;
   border-radius: 0;
   -webkit-appearance: none;
@@ -5960,6 +5964,9 @@ a#greenid-container .bg-danger:hover {
   padding: 15px;
   height: 46px;
   line-height: 0.7;
+  cursor: auto;
+  padding: 10px 0;
+  font-size: 17px;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container input[type='text'],
