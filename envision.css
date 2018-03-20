@@ -5842,7 +5842,9 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-so-content #greenid-container {
   margin-bottom: 30px;
-  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
   text-align: center;
 }
 .greenid-so-content #greenid-container .form-group {
@@ -6389,10 +6391,7 @@ a#greenid-container .bg-danger:hover {
   background-image: url('/df/assets/images/so-btn-next-arrow.png');
   background-position: right center;
   background-repeat: no-repeat;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: calc(50% - 125px);
+  align-self: flex-end;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-next {
