@@ -6388,7 +6388,7 @@ a#greenid-container .bg-danger:hover {
   background-image: url('/df/assets/images/so-btn-next-arrow.png');
   background-position: right center;
   background-repeat: no-repeat;
-  margin-top: 120px;
+  margin-top: 200px;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-next {
