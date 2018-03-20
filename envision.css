@@ -5844,11 +5844,12 @@ a#greenid-container .bg-danger:hover {
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  align-content: flex-start;
   text-align: center;
 }
 .greenid-so-content #greenid-container .form-group {
   margin-bottom: 20px;
+  flex: 1;
+  align-content: flex-start;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .form-group {
