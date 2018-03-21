@@ -6393,8 +6393,6 @@ a#greenid-container .bg-danger:hover {
   background-position: right center;
   background-repeat: no-repeat;
   display: block;
-  margin: auto auto 0 auto;
-  align-self: flex-end;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-next {
@@ -6424,6 +6422,7 @@ a#greenid-container .bg-danger:hover {
   -moz-border-radius: 30px;
   border-radius: 30px;
   text-transform: capitalize;
+  margin: auto auto 0 auto;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-primary {
