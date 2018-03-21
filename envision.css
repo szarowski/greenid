@@ -5832,10 +5832,10 @@ a#greenid-container .bg-danger:hover {
   background: white;
   padding: 35px 30px 30px;
   width: 100%;
-  height: auto;
-  min-height: 150px;
-  box-sizing: border-box;
-  position: absolute;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
 }
 .greenid-so-content-no-padding {
   padding: 0;
@@ -5846,6 +5846,7 @@ a#greenid-container .bg-danger:hover {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  flex: 1;
 }
 .greenid-so-content #greenid-container .form-group {
   margin-bottom: 20px;
