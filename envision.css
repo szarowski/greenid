@@ -3495,6 +3495,14 @@ a#greenid-container .bg-danger:hover {
   height: 46px;
   line-height: 46px;
 }
+#greenid-container textarea.input-group-lg > .form-control,
+#greenid-container textarea.input-group-lg > .input-group-addon,
+#greenid-container textarea.input-group-lg > .input-group-btn > .btn,
+#greenid-container select[multiple].input-group-lg > .form-control,
+#greenid-container select[multiple].input-group-lg > .input-group-addon,
+#greenid-container select[multiple].input-group-lg > .input-group-btn > .btn {
+  height: 100vh;
+}
 #greenid-container .input-group-sm > .form-control,
 #greenid-container .input-group-sm > .input-group-addon,
 #greenid-container .input-group-sm > .input-group-btn > .btn {
