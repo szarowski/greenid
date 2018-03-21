@@ -3495,14 +3495,6 @@ a#greenid-container .bg-danger:hover {
   height: 46px;
   line-height: 46px;
 }
-#greenid-container textarea.input-group-lg > .form-control,
-#greenid-container textarea.input-group-lg > .input-group-addon,
-#greenid-container textarea.input-group-lg > .input-group-btn > .btn,
-#greenid-container select[multiple].input-group-lg > .form-control,
-#greenid-container select[multiple].input-group-lg > .input-group-addon,
-#greenid-container select[multiple].input-group-lg > .input-group-btn > .btn {
-  height: auto;
-}
 #greenid-container .input-group-sm > .form-control,
 #greenid-container .input-group-sm > .input-group-addon,
 #greenid-container .input-group-sm > .input-group-btn > .btn {
@@ -3524,7 +3516,7 @@ a#greenid-container .bg-danger:hover {
 #greenid-container select[multiple].input-group-sm > .form-control,
 #greenid-container select[multiple].input-group-sm > .input-group-addon,
 #greenid-container select[multiple].input-group-sm > .input-group-btn > .btn {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container .input-group {
   position: relative;
@@ -6422,7 +6414,7 @@ a#greenid-container .bg-danger:hover {
   -moz-border-radius: 30px;
   border-radius: 30px;
   text-transform: capitalize;
-  margin: auto auto 0 auto;
+  margin: auto auto 20px auto;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-primary {
