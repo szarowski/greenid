@@ -5843,6 +5843,7 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container {
   margin-bottom: 30px;
   text-align: center;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
