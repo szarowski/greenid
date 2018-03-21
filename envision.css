@@ -146,7 +146,7 @@
 }
 #greenid-container input[type="number"]::-webkit-inner-spin-button,
 #greenid-container input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container input[type="search"] {
   -webkit-appearance: textfield;
@@ -1036,7 +1036,7 @@
   display: block;
   width: 100% \9;
   max-width: 100%;
-  height: auto;
+  height: 100vh;
 }
 #greenid-container .img-rounded {
   border-radius: 6px;
@@ -1053,7 +1053,7 @@
   display: inline-block;
   width: 100% \9;
   max-width: 100%;
-  height: auto;
+  height: 100vh;
 }
 #greenid-container .img-circle {
   border-radius: 50%;
@@ -1068,7 +1068,7 @@
 #greenid-container .greenid-sr-only-focusable:focus {
   position: static;
   width: auto;
-  height: auto;
+  height: 100vh;
   margin: 0;
   overflow: visible;
   clip: auto;
@@ -2231,7 +2231,7 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container textarea.input-lg,
 #greenid-container select[multiple].input-lg {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container fieldset {
   padding: 0;
@@ -2276,7 +2276,7 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container select[multiple],
 #greenid-container select[size] {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container input[type="file"]:focus,
 #greenid-container input[type="radio"]:focus,
@@ -5635,7 +5635,7 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-modal .modal-body img {
   max-width: 100%;
-  height: auto;
+  height: 100vh;
 }
 .greenid-modal h3 {
   font-size: 20px;
@@ -6089,7 +6089,7 @@ a#greenid-container .bg-danger:hover {
     max-width: 100%;
     max-height: 213px;
     width: auto;
-    height: auto;
+    height: 100vh;
     max-width: 75%;
     max-height: 159.75px;
   }
