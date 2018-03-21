@@ -2216,7 +2216,7 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container textarea.input-sm,
 #greenid-container select[multiple].input-sm {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container .input-lg {
   height: 46px;
