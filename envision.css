@@ -5842,13 +5842,14 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-so-content #greenid-container {
   margin-bottom: 30px;
-  height: 80vh;
   text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
 }
 .greenid-so-content #greenid-container .form-group {
   margin-bottom: 20px;
-  flex: 1;
-  align-content: flex-start;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .form-group {
@@ -6392,9 +6393,8 @@ a#greenid-container .bg-danger:hover {
   background-position: right center;
   background-repeat: no-repeat;
   display: block;
-  position: absolute;
-  bottom: 0;
-  left: calc(50% - 125px);
+  margin: auto auto 0 auto;
+  align-self: flex-end;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-next {
