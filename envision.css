@@ -4,6 +4,7 @@
 	TEST:         https://test2.edentiti.com/df/assets/stylesheets/greenid-mobile.css
 */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@import url("https://spiral.envisionworld.co/static/qr_checkout/fonts/lato.css");
 #greenid-container {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -180,10 +181,6 @@
 #greenid-container td,
 #greenid-container th {
   padding: 0;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('file:///android_asset/Lato-Regular.ttf');
 }
 .glyphicon {
   position: relative;
