@@ -1244,9 +1244,6 @@
 #greenid-container .text-lowercase {
   text-transform: lowercase;
 }
-#greenid-container .text-uppercase {
-  text-transform: uppercase;
-}
 #greenid-container .text-capitalize {
   text-transform: capitalize;
 }
