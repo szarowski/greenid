@@ -1244,6 +1244,9 @@
 #greenid-container .text-lowercase {
   text-transform: lowercase;
 }
+#greenid-container .text-uppercase {
+  text-transform: none;
+}
 #greenid-container .text-capitalize {
   text-transform: capitalize;
 }
@@ -6111,6 +6114,7 @@ a#greenid-container .bg-danger:hover {
   -moz-border-radius: 30px;
   border-radius: 30px;
   margin: 10px auto;
+  text-transform: none;
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item:active {
   background-color: #0c93b3;
