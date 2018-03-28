@@ -1352,7 +1352,6 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container .initialism {
   font-size: 90%;
-  text-transform: uppercase;
 }
 #greenid-container blockquote {
   padding: 10px 20px;
@@ -6739,7 +6738,6 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container #greenid-source-content #greenid-source-cancel.btn-default {
   background-color: white;
   color: #29B7DA;
-  text-transform: uppercase;
   padding: 15px;
   width: 100%;
   font-size: 17px;
