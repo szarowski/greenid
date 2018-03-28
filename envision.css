@@ -182,15 +182,14 @@
   padding: 0;
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('/df/assets/fonts/glyphicons/glyphicons-halflings-regular.eot');
-  src: url('/df/assets/fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/df/assets/fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('/df/assets/fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('/df/assets/fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('/df/assets/fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  font-family: 'Lato';
+  src: url('file:///android_asset/Lato-Regular.ttf');
 }
 .glyphicon {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -4883,7 +4882,7 @@ a#greenid-container .bg-danger:hover {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
