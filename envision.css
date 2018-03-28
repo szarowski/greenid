@@ -5904,6 +5904,7 @@ a#greenid-container .bg-danger:hover {
   font-size: 18px;
   font-weight: normal;
   line-height: 1.4;
+  margin-top: 20px;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container p {
@@ -6659,17 +6660,23 @@ a#greenid-container .bg-danger:hover {
   background-color: #f2dede;
   border-color: rgba(167, 5, 14, 0.3);
   color: #A7050E;
+  font-size: 14px;
+  padding: 5px;
 }
 .greenid-so-content #greenid-container .greenid-alert-lockout {
   background-image: url('/df/assets/images/so-lockout-icon.png');
   background-color: #f2dede;
   border-color: rgba(167, 5, 14, 0.3);
   color: #A7050E;
+  font-size: 14px;
+  padding: 5px;
 }
 .greenid-so-content #greenid-container .greenid-alert-inprogress {
   background-image: url('/df/assets/images/so-inprogress-icon.png');
   background-color: #E6E7E8;
   border-color: #ddd;
+  font-size: 14px;
+  padding: 5px;
 }
 .greenid-so-content #greenid-container .greenid-alert-finish {
   background-position-y: 10px;
