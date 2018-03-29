@@ -6440,7 +6440,7 @@ a#greenid-container .bg-danger:hover {
 }
 @media (orientation: landscape) {
   .greenid-so-content #greenid-container .btn-primary {
-    margin: auto auto 0 auto;
+      padding-bottom: 35px;
   }
 }
 .greenid-so-content #greenid-container .btn-primary:active {
