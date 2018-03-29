@@ -4,6 +4,7 @@
 	TEST:         https://test2.edentiti.com/df/assets/stylesheets/greenid-mobile.css
 */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@import url("https://spiral.envisionworld.co/static/qr_checkout/fonts/lato.css");
 #greenid-container {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -146,7 +147,7 @@
 }
 #greenid-container input[type="number"]::-webkit-inner-spin-button,
 #greenid-container input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container input[type="search"] {
   -webkit-appearance: textfield;
@@ -1036,7 +1037,7 @@
   display: block;
   width: 100% \9;
   max-width: 100%;
-  height: auto;
+  height: 100vh;
 }
 #greenid-container .img-rounded {
   border-radius: 6px;
@@ -1053,7 +1054,7 @@
   display: inline-block;
   width: 100% \9;
   max-width: 100%;
-  height: auto;
+  height: 100vh;
 }
 #greenid-container .img-circle {
   border-radius: 50%;
@@ -1068,7 +1069,7 @@
 #greenid-container .greenid-sr-only-focusable:focus {
   position: static;
   width: auto;
-  height: auto;
+  height: 100vh;
   margin: 0;
   overflow: visible;
   clip: auto;
@@ -1201,7 +1202,7 @@
   font-size: 12px;
 }
 #greenid-container p {
-  margin: 0 0 10px;
+  margin: 0 0 20px;
   text-align: center;
 }
 #greenid-container .lead {
@@ -1244,7 +1245,7 @@
   text-transform: lowercase;
 }
 #greenid-container .text-uppercase {
-  text-transform: uppercase;
+  text-transform: none;
 }
 #greenid-container .text-capitalize {
   text-transform: capitalize;
@@ -1321,7 +1322,7 @@ a#greenid-container .bg-danger:hover {
 #greenid-container ul,
 #greenid-container ol {
   padding-left: 0;
-  margin-top: 0;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 #greenid-container ul ul,
@@ -1351,7 +1352,6 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container .initialism {
   font-size: 90%;
-  text-transform: uppercase;
 }
 #greenid-container blockquote {
   padding: 10px 20px;
@@ -2216,7 +2216,7 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container textarea.input-sm,
 #greenid-container select[multiple].input-sm {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container .input-lg {
   height: 46px;
@@ -2231,7 +2231,7 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container textarea.input-lg,
 #greenid-container select[multiple].input-lg {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container fieldset {
   padding: 0;
@@ -2276,7 +2276,7 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container select[multiple],
 #greenid-container select[size] {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container input[type="file"]:focus,
 #greenid-container input[type="radio"]:focus,
@@ -3501,7 +3501,7 @@ a#greenid-container .bg-danger:hover {
 #greenid-container select[multiple].input-group-lg > .form-control,
 #greenid-container select[multiple].input-group-lg > .input-group-addon,
 #greenid-container select[multiple].input-group-lg > .input-group-btn > .btn {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container .input-group-sm > .form-control,
 #greenid-container .input-group-sm > .input-group-addon,
@@ -3524,7 +3524,7 @@ a#greenid-container .bg-danger:hover {
 #greenid-container select[multiple].input-group-sm > .form-control,
 #greenid-container select[multiple].input-group-sm > .input-group-addon,
 #greenid-container select[multiple].input-group-sm > .input-group-btn > .btn {
-  height: auto;
+  height: 100vh;
 }
 #greenid-container .input-group {
   position: relative;
@@ -4058,7 +4058,7 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-modal .modal-footer {
   padding: 15px;
-  text-align: right;
+  text-align: center;
   border-top: 1px solid #e5e5e5;
 }
 .greenid-modal .modal-footer .btn + .btn {
@@ -5635,7 +5635,7 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-modal .modal-body img {
   max-width: 100%;
-  height: auto;
+  height: 100vh;
 }
 .greenid-modal h3 {
   font-size: 20px;
@@ -5732,13 +5732,13 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-so-modal#greenid-wait-modal .modal-body {
   font-family: 'Lato';
-  font-size: 29px;
+  font-size: 26px;
   color: #29B7DA;
   padding: 30px;
 }
 @media (max-width: 320px) {
   .greenid-so-modal#greenid-wait-modal .modal-body {
-    font-size: 24.65px;
+    font-size: 24px;
   }
 }
 .greenid-so-modal-backdrop {
@@ -5832,20 +5832,22 @@ a#greenid-container .bg-danger:hover {
   background: white;
   padding: 35px 30px 30px;
   width: 100%;
-  height: auto;
-  min-height: 150px;
-  box-sizing: border-box;
-  position: absolute;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
 }
 .greenid-so-content-no-padding {
   padding: 0;
 }
 .greenid-so-content #greenid-container {
-  margin-bottom: 30px;
+  margin-bottom: 0;
   text-align: center;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  flex: 1;
 }
 .greenid-so-content #greenid-container .form-group {
   margin-bottom: 20px;
@@ -5882,7 +5884,7 @@ a#greenid-container .bg-danger:hover {
   font-weight: normal;
 }
 .greenid-so-content #greenid-container h2 {
-  color: #29B7DA;
+  color: black;
   font-family: 'Lato';
   font-weight: normal;
   font-size: 28px;
@@ -5896,12 +5898,13 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container h4 {
   font-family: 'Lato';
   font-weight: normal;
-  color: #29B7DA;
+  color: black;
 }
 .greenid-so-content #greenid-container p {
   font-size: 18px;
   font-weight: normal;
   line-height: 1.4;
+  margin-top: 20px;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container p {
@@ -5967,7 +5970,7 @@ a#greenid-container .bg-danger:hover {
   -webkit-appearance: none;
   font-size: 18px;
   font-weight: bolder;
-  height: 46px;
+  height: 36px;
   line-height: 0.7;
   cursor: auto;
   padding: 10px 0;
@@ -6063,6 +6066,7 @@ a#greenid-container .bg-danger:hover {
   margin-bottom: 1.5em;
   min-height: 20px;
   text-align: center;
+  display: flex;
 }
 .greenid-so-content #greenid-container .greenid-so-content-dropcap-listitem:last-of-type {
   margin-bottom: 0.5em;
@@ -6088,7 +6092,7 @@ a#greenid-container .bg-danger:hover {
     max-width: 100%;
     max-height: 213px;
     width: auto;
-    height: auto;
+    height: 100vh;
     max-width: 75%;
     max-height: 159.75px;
   }
@@ -6112,6 +6116,8 @@ a#greenid-container .bg-danger:hover {
   -moz-border-radius: 30px;
   border-radius: 30px;
   margin: 10px auto;
+  text-transform: none;
+  text-align: center;
 }
 .greenid-so-content #greenid-container .greenid-so-content-select-item:active {
   background-color: #0c93b3;
@@ -6389,9 +6395,11 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container .btn-next {
   background-size: 49px 35px;
   background-image: url('/df/assets/images/so-btn-next-arrow.png');
-  background-position: right center;
   background-repeat: no-repeat;
   display: block;
+}
+@media screen and (orientation: landscape) {
+  width: 100px;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-next {
@@ -6420,8 +6428,8 @@ a#greenid-container .bg-danger:hover {
   -webkit-border-radius: 0;
   -moz-border-radius: 30px;
   border-radius: 30px;
-  text-transform: capitalize;
-  margin: auto auto 0 auto;
+  text-transform: none;
+  margin: auto auto 20px auto;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-primary {
@@ -6578,7 +6586,7 @@ a#greenid-container .bg-danger:hover {
   border-bottom: 1px solid #D7D7DB;
 }
 .greenid-so-content #greenid-container .input-group-btn button {
-  height: 46px;
+  height: 36px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -6656,17 +6664,23 @@ a#greenid-container .bg-danger:hover {
   background-color: #f2dede;
   border-color: rgba(167, 5, 14, 0.3);
   color: #A7050E;
+  font-size: 14px;
+  padding: 5px;
 }
 .greenid-so-content #greenid-container .greenid-alert-lockout {
   background-image: url('/df/assets/images/so-lockout-icon.png');
   background-color: #f2dede;
   border-color: rgba(167, 5, 14, 0.3);
   color: #A7050E;
+  font-size: 14px;
+  padding: 5px;
 }
 .greenid-so-content #greenid-container .greenid-alert-inprogress {
   background-image: url('/df/assets/images/so-inprogress-icon.png');
   background-color: #E6E7E8;
   border-color: #ddd;
+  font-size: 14px;
+  padding: 5px;
 }
 .greenid-so-content #greenid-container .greenid-alert-finish {
   background-position-y: 10px;
@@ -6736,14 +6750,13 @@ a#greenid-container .bg-danger:hover {
 .greenid-so-content #greenid-container #greenid-source-content #greenid-source-cancel.btn-default {
   background-color: white;
   color: #29B7DA;
-  text-transform: uppercase;
   padding: 15px;
   width: 100%;
   font-size: 17px;
   border: 1px solid #29B7DA;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
-  border-radius: 0;
+  border-radius: 30px;
   margin-left: 0;
 }
 @media (max-width: 320px) {
