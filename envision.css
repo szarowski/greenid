@@ -6881,9 +6881,9 @@ a#greenid-container .bg-danger:hover {
   padding-right: 5px;
 }
 
-#greenid-so-confirm-details-form .form-group:nth-child(6),
-#greenid-so-confirm-details-form .form-group:nth-child(7),
+#greenid-so-confirm-details-form .form-group:nth-child(8),
 #greenid-so-confirm-details-form .form-group:nth-child(9),
-#greenid-so-confirm-details-form .form-group:nth-child(10) {
+#greenid-so-confirm-details-form .form-group:nth-child(11),
+#greenid-so-confirm-details-form .form-group:nth-child(12) {
   width: 50%;
 }
