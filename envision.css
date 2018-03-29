@@ -6384,11 +6384,6 @@ a#greenid-container .bg-danger:hover {
     margin-top: -20px;
     margin-bottom: 25px;
 }
-@media (orientation: landscape) {
-  .greenid-so-content #greenid-container .greenid-so-content-nav {
-      margin-bottom: 0;
-  }
-}
 .greenid-so-content #greenid-container .greenid-so-content-margin-bottom-lg {
   margin-bottom: 20px !important;
 }
@@ -6441,6 +6436,11 @@ a#greenid-container .bg-danger:hover {
   .greenid-so-content #greenid-container .btn-primary {
     font-size: 12.75px;
     padding: 11.25px;
+  }
+}
+@media (orientation: landscape) {
+  .greenid-so-content #greenid-container .btn-primary {
+    margin: auto auto 0 auto;
   }
 }
 .greenid-so-content #greenid-container .btn-primary:active {
