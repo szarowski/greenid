@@ -42,6 +42,7 @@
 }
 #greenid-container a {
   background: transparent;
+  text-decoration: underline;
 }
 #greenid-container a:active,
 #greenid-container a:hover {
@@ -6329,8 +6330,8 @@ a#greenid-container .bg-danger:hover {
   }
 }
 .greenid-so-content #greenid-container .greenid-so-content-agree {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .greenid-so-content-agree {
@@ -6378,10 +6379,15 @@ a#greenid-container .bg-danger:hover {
   }
 }
 .greenid-so-content #greenid-container .greenid-so-content-nav {
-  position: relative;
-  min-height: 20px;
-  margin-top: -20px;
-  margin-bottom: 25px;
+    position: relative;
+    min-height: 20px;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+@media (orientation: landscape) {
+  .greenid-so-content #greenid-container .greenid-so-content-nav {
+      margin-bottom: 0;
+  }
 }
 .greenid-so-content #greenid-container .greenid-so-content-margin-bottom-lg {
   margin-bottom: 20px !important;
