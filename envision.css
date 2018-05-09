@@ -6881,9 +6881,18 @@ a#greenid-container .bg-danger:hover {
   padding-right: 5px;
 }
 
-#greenid-so-confirm-details-form .form-group:nth-child(7),
-#greenid-so-confirm-details-form .form-group:nth-child(8),
-#greenid-so-confirm-details-form .form-group:nth-child(10),
-#greenid-so-confirm-details-form .form-group:nth-child(11) {
-  width: 50%;
+/* passport - 16 child elements */
+/*#greenid-so-confirm-details-form .form-group:nth-child(7):nth-last-child(14),*/
+/*#greenid-so-confirm-details-form .form-group:nth-child(8):nth-last-child(14),*/
+/*#greenid-so-confirm-details-form .form-group:nth-child(10):nth-last-child(14),*/
+/*#greenid-so-confirm-details-form .form-group:nth-child(11):nth-last-child(14) {*/
+  /*width: 50%;*/
+/*}*/
+
+/* ID - 20 child elements */
+#greenid-so-confirm-details-form .form-group:nth-child(7):nth-last-child(14),
+#greenid-so-confirm-details-form .form-group:nth-child(8):nth-last-child(13),
+#greenid-so-confirm-details-form .form-group:nth-child(10):nth-last-child(11),
+#greenid-so-confirm-details-form .form-group:nth-child(11):nth-last-child(10) {
+    width: 50%;
 }
