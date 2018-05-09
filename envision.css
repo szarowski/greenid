@@ -6882,10 +6882,10 @@ a#greenid-container .bg-danger:hover {
 }
 
 /* second form page - passport */
-#greenid-so-content-extra-fields .form-group:nth-child(1),
-#greenid-so-content-extra-fields .form-group:nth-child(2),
 #greenid-so-content-extra-fields .form-group:nth-child(4),
-#greenid-so-content-extra-fields .form-group:nth-child(5) {
+#greenid-so-content-extra-fields .form-group:nth-child(5),
+#greenid-so-content-extra-fields .form-group:nth-child(7),
+#greenid-so-content-extra-fields .form-group:nth-child(8) {
   width: 50%;
 }
 
@@ -6897,6 +6897,12 @@ a#greenid-container .bg-danger:hover {
     width: 50%;
 }
 
-#greenid-so-content-extra-fields {
+#greenid-so-content-extra-fields,
+#greenid-so-content-core-fields {
   height: auto !important;
+}
+
+#greenid-so-content-extra-fields {
+    display: flex;
+    flex-flow: row wrap;
 }
