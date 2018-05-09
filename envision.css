@@ -6882,12 +6882,12 @@ a#greenid-container .bg-danger:hover {
 }
 
 /* passport - 16 child elements */
-/*#greenid-so-confirm-details-form .form-group:nth-child(7):nth-last-child(14),*/
-/*#greenid-so-confirm-details-form .form-group:nth-child(8):nth-last-child(14),*/
-/*#greenid-so-confirm-details-form .form-group:nth-child(10):nth-last-child(14),*/
-/*#greenid-so-confirm-details-form .form-group:nth-child(11):nth-last-child(14) {*/
-  /*width: 50%;*/
-/*}*/
+#greenid-so-content-extra-fields .form-group:nth-child(1),
+#greenid-so-content-extra-fields .form-group:nth-child(2),
+#greenid-so-content-extra-fields .form-group:nth-child(4),
+#greenid-so-content-extra-fields .form-group:nth-child(5) {
+  width: 50%;
+}
 
 /* ID - 20 child elements */
 #greenid-so-confirm-details-form .form-group:nth-child(7):nth-last-child(14),
@@ -6895,4 +6895,8 @@ a#greenid-container .bg-danger:hover {
 #greenid-so-confirm-details-form .form-group:nth-child(10):nth-last-child(11),
 #greenid-so-confirm-details-form .form-group:nth-child(11):nth-last-child(10) {
     width: 50%;
+}
+
+#greenid-so-content-extra-fields {
+  height: auto !important;
 }
