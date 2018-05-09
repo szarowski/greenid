@@ -149,7 +149,7 @@
 }
 #greenid-container input[type="number"]::-webkit-inner-spin-button,
 #greenid-container input[type="number"]::-webkit-outer-spin-button {
-  height: 100vh;
+  height: 100vh !important;
 }
 #greenid-container input[type="search"] {
   -webkit-appearance: textfield;
