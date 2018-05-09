@@ -149,7 +149,7 @@
 }
 #greenid-container input[type="number"]::-webkit-inner-spin-button,
 #greenid-container input[type="number"]::-webkit-outer-spin-button {
-  height: 100vh !important;
+  height: 100vh;
 }
 #greenid-container input[type="search"] {
   -webkit-appearance: textfield;
@@ -5834,7 +5834,7 @@ a#greenid-container .bg-danger:hover {
   background: white;
   padding: 35px 30px 30px;
   width: 100%;
-  height: 100vh;
+  height: 100vh !important;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
