@@ -4929,6 +4929,7 @@ a#greenid-container .bg-danger:hover {
 }
 #greenid-container #greenid-source-header {
   margin-bottom: 10px;
+  text-align: center;
 }
 #greenid-container #greenid-source-header #greenid-source-title {
   display: inline-block;
@@ -5844,7 +5845,7 @@ a#greenid-container .bg-danger:hover {
 }
 .greenid-so-content #greenid-container {
   margin-bottom: 0;
-  text-align: center;
+  text-align: right;
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -6471,9 +6472,6 @@ a#greenid-container .bg-danger:hover {
 
 .greenid-so-content #greenid-container .btn-back:after {
     visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 0;
     content: 'Not now';
 }
 
@@ -6647,6 +6645,7 @@ a#greenid-container .bg-danger:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   min-height: 70px;
+  text-align: center;
 }
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .greenid-alert {
