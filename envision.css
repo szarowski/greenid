@@ -6465,7 +6465,13 @@ a#greenid-container .bg-danger:hover {
   top: 0;
   left: 0;
   line-height: 1;
+  display: none;
 }
+
+.greenid-so-content #greenid-container .btn-back:after {
+  content: 'Not now';
+}
+
 @media (max-width: 320px) {
   .greenid-so-content #greenid-container .btn-back {
     font-size: 13.5px;
