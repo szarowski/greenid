@@ -6465,11 +6465,16 @@ a#greenid-container .bg-danger:hover {
   top: 0;
   left: 0;
   line-height: 1;
-  display: none;
+  visibility: hidden;
+  position: relative;
 }
 
 .greenid-so-content #greenid-container .btn-back:after {
-  content: 'Not now';
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'Not now';
 }
 
 @media (max-width: 320px) {
